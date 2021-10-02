@@ -13,3 +13,6 @@ resolver = "2"
 [dependencies.ordered-float]
 default-features = false
 version = "^2.5"
+
+[package.metadata.docs.rs]
+default-target = "wasm32-unknown-unknown"
