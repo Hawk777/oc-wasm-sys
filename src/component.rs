@@ -71,4 +71,10 @@ extern "C" {
 
 	#[link_name = "invokeCancel"]
 	pub fn invoke_cancel();
+
+	#[link_name = "lastExceptionMessage"]
+	pub fn last_exception_message(buffer: *mut u8, buffer_length: usize) -> isize;
+
+	#[link_name = "lastExceptionIsType"]
+	pub fn last_exception_is_type(class: *const u8, class_length: usize) -> i32;
 }
