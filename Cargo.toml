@@ -1,6 +1,6 @@
 [package]
 name = "oc-wasm-sys"
-version = "0.2.0"
+version = "0.2.1"
 authors = ["Christopher Head <chead@chead.ca>"]
 edition = "2021"
 description = "Raw FFI bindings to the OC-Wasm system call interface"
