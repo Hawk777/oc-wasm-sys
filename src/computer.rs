@@ -54,4 +54,6 @@ extern "C" {
 	pub fn reboot() -> !;
 
 	pub fn error(address: *const u8, length: usize) -> !;
+
+	pub fn debug(address: *const u8, length: usize) -> i32;
 }
