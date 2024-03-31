@@ -11,7 +11,7 @@ categories = ["games"]
 
 [dependencies.ordered-float]
 default-features = false
-version = "^3"
+version = "^4"
 
 [package.metadata.docs.rs]
 default-target = "wasm32-unknown-unknown"
