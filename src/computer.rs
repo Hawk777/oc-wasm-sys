@@ -18,6 +18,9 @@ extern "C" {
 	#[link_name = "installedRAM"]
 	pub fn installed_ram() -> u32;
 
+	#[link_name = "freeRAM"]
+	pub fn free_ram() -> u32;
+
 	#[link_name = "pushSignal"]
 	pub fn push_signal(signal: *const u8) -> i32;
 
